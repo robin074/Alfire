@@ -1,0 +1,6 @@
+framework module Pods_AlFIreTests {
+  umbrella header "Pods-AlFIreTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_AlFIre_AlFIreUITests {
+  umbrella header "Pods-AlFIre-AlFIreUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184FF73E23E2E77100C7D126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FF73D23E2E77100C7D126 /* AppDelegate.swift */; };
+		184FF74023E2E77100C7D126 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FF73F23E2E77100C7D126 /* SceneDelegate.swift */; };
+		184FF74223E2E77100C7D126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FF74123E2E77100C7D126 /* ViewController.swift */; };
+		184FF74523E2E77100C7D126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184FF74323E2E77100C7D126 /* Main.storyboard */; };
+		184FF74723E2E77300C7D126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184FF74623E2E77300C7D126 /* Assets.xcassets */; };
+		184FF74A23E2E77300C7D126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184FF74823E2E77300C7D126 /* LaunchScreen.storyboard */; };
+		184FF75523E2E77300C7D126 /* AlFIreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FF75423E2E77300C7D126 /* AlFIreTests.swift */; };
+		184FF76023E2E77300C7D126 /* AlFIreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FF75F23E2E77300C7D126 /* AlFIreUITests.swift */; };
+		24C2313169377E2459FDBDF8 /* Pods_AlFIre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7560004897E5CB25E59374 /* Pods_AlFIre.framework */; };
+		2D66115E7293E4D71FE0B856 /* Pods_AlFIreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FEDA41F91945611168A17D /* Pods_AlFIreTests.framework */; };
+		9B6D99F29EAA1A60A89893F5 /* Pods_AlFIre_AlFIreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F6CD0C6B1B50922C5799D3 /* Pods_AlFIre_AlFIreUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184FF75123E2E77300C7D126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184FF73223E2E77100C7D126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184FF73923E2E77100C7D126;
+			remoteInfo = AlFIre;
+		};
+		184FF75C23E2E77300C7D126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184FF73223E2E77100C7D126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184FF73923E2E77100C7D126;
+			remoteInfo = AlFIre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184FF73A23E2E77100C7D126 /* AlFIre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlFIre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184FF73D23E2E77100C7D126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184FF73F23E2E77100C7D126 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		184FF74123E2E77100C7D126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184FF74423E2E77100C7D126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184FF74623E2E77300C7D126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184FF74923E2E77300C7D126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184FF74B23E2E77300C7D126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184FF75023E2E77300C7D126 /* AlFIreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlFIreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184FF75423E2E77300C7D126 /* AlFIreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlFIreTests.swift; sourceTree = "<group>"; };
+		184FF75623E2E77300C7D126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184FF75B23E2E77300C7D126 /* AlFIreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlFIreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184FF75F23E2E77300C7D126 /* AlFIreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlFIreUITests.swift; sourceTree = "<group>"; };
+		184FF76123E2E77300C7D126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19197E560BAB4D5E1E4ED6CB /* Pods-AlFIreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlFIreTests.debug.xcconfig"; path = "Target Support Files/Pods-AlFIreTests/Pods-AlFIreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1ACA55B40015A022B3B7DFAE /* Pods-AlFIreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlFIreTests.release.xcconfig"; path = "Target Support Files/Pods-AlFIreTests/Pods-AlFIreTests.release.xcconfig"; sourceTree = "<group>"; };
+		27F6CD0C6B1B50922C5799D3 /* Pods_AlFIre_AlFIreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlFIre_AlFIreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE380A3B54B415BAD76F13B /* Pods-AlFIre-AlFIreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlFIre-AlFIreUITests.debug.xcconfig"; path = "Target Support Files/Pods-AlFIre-AlFIreUITests/Pods-AlFIre-AlFIreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8530C5BF7B58D654DF626835 /* Pods-AlFIre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlFIre.release.xcconfig"; path = "Target Support Files/Pods-AlFIre/Pods-AlFIre.release.xcconfig"; sourceTree = "<group>"; };
+		8B6B831080ED791BF642E4E1 /* Pods-AlFIre-AlFIreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlFIre-AlFIreUITests.release.xcconfig"; path = "Target Support Files/Pods-AlFIre-AlFIreUITests/Pods-AlFIre-AlFIreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98FEDA41F91945611168A17D /* Pods_AlFIreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlFIreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8EB9EB21CB6B1DD75149832 /* Pods-AlFIre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlFIre.debug.xcconfig"; path = "Target Support Files/Pods-AlFIre/Pods-AlFIre.debug.xcconfig"; sourceTree = "<group>"; };
+		CF7560004897E5CB25E59374 /* Pods_AlFIre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlFIre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184FF73723E2E77100C7D126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C2313169377E2459FDBDF8 /* Pods_AlFIre.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184FF74D23E2E77300C7D126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D66115E7293E4D71FE0B856 /* Pods_AlFIreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184FF75823E2E77300C7D126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D99F29EAA1A60A89893F5 /* Pods_AlFIre_AlFIreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184FF73123E2E77100C7D126 = {
+			isa = PBXGroup;
+			children = (
+				184FF73C23E2E77100C7D126 /* AlFIre */,
+				184FF75323E2E77300C7D126 /* AlFIreTests */,
+				184FF75E23E2E77300C7D126 /* AlFIreUITests */,
+				184FF73B23E2E77100C7D126 /* Products */,
+				4C4AB6FE2A869343D6520265 /* Pods */,
+				1C8D2E830E89FE16F5726C80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184FF73B23E2E77100C7D126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184FF73A23E2E77100C7D126 /* AlFIre.app */,
+				184FF75023E2E77300C7D126 /* AlFIreTests.xctest */,
+				184FF75B23E2E77300C7D126 /* AlFIreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184FF73C23E2E77100C7D126 /* AlFIre */ = {
+			isa = PBXGroup;
+			children = (
+				184FF73D23E2E77100C7D126 /* AppDelegate.swift */,
+				184FF73F23E2E77100C7D126 /* SceneDelegate.swift */,
+				184FF74123E2E77100C7D126 /* ViewController.swift */,
+				184FF74323E2E77100C7D126 /* Main.storyboard */,
+				184FF74623E2E77300C7D126 /* Assets.xcassets */,
+				184FF74823E2E77300C7D126 /* LaunchScreen.storyboard */,
+				184FF74B23E2E77300C7D126 /* Info.plist */,
+			);
+			path = AlFIre;
+			sourceTree = "<group>";
+		};
+		184FF75323E2E77300C7D126 /* AlFIreTests */ = {
+			isa = PBXGroup;
+			children = (
+				184FF75423E2E77300C7D126 /* AlFIreTests.swift */,
+				184FF75623E2E77300C7D126 /* Info.plist */,
+			);
+			path = AlFIreTests;
+			sourceTree = "<group>";
+		};
+		184FF75E23E2E77300C7D126 /* AlFIreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184FF75F23E2E77300C7D126 /* AlFIreUITests.swift */,
+				184FF76123E2E77300C7D126 /* Info.plist */,
+			);
+			path = AlFIreUITests;
+			sourceTree = "<group>";
+		};
+		1C8D2E830E89FE16F5726C80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF7560004897E5CB25E59374 /* Pods_AlFIre.framework */,
+				27F6CD0C6B1B50922C5799D3 /* Pods_AlFIre_AlFIreUITests.framework */,
+				98FEDA41F91945611168A17D /* Pods_AlFIreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C4AB6FE2A869343D6520265 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8EB9EB21CB6B1DD75149832 /* Pods-AlFIre.debug.xcconfig */,
+				8530C5BF7B58D654DF626835 /* Pods-AlFIre.release.xcconfig */,
+				5BE380A3B54B415BAD76F13B /* Pods-AlFIre-AlFIreUITests.debug.xcconfig */,
+				8B6B831080ED791BF642E4E1 /* Pods-AlFIre-AlFIreUITests.release.xcconfig */,
+				19197E560BAB4D5E1E4ED6CB /* Pods-AlFIreTests.debug.xcconfig */,
+				1ACA55B40015A022B3B7DFAE /* Pods-AlFIreTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184FF73923E2E77100C7D126 /* AlFIre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184FF76423E2E77300C7D126 /* Build configuration list for PBXNativeTarget "AlFIre" */;
+			buildPhases = (
+				7DBF17E5D191B404FF648A43 /* [CP] Check Pods Manifest.lock */,
+				184FF73623E2E77100C7D126 /* Sources */,
+				184FF73723E2E77100C7D126 /* Frameworks */,
+				184FF73823E2E77100C7D126 /* Resources */,
+				ECF2E9900750226257A63C02 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlFIre;
+			productName = AlFIre;
+			productReference = 184FF73A23E2E77100C7D126 /* AlFIre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184FF74F23E2E77300C7D126 /* AlFIreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184FF76723E2E77300C7D126 /* Build configuration list for PBXNativeTarget "AlFIreTests" */;
+			buildPhases = (
+				1E9D3D562F4F73FC905CD758 /* [CP] Check Pods Manifest.lock */,
+				184FF74C23E2E77300C7D126 /* Sources */,
+				184FF74D23E2E77300C7D126 /* Frameworks */,
+				184FF74E23E2E77300C7D126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184FF75223E2E77300C7D126 /* PBXTargetDependency */,
+			);
+			name = AlFIreTests;
+			productName = AlFIreTests;
+			productReference = 184FF75023E2E77300C7D126 /* AlFIreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184FF75A23E2E77300C7D126 /* AlFIreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184FF76A23E2E77300C7D126 /* Build configuration list for PBXNativeTarget "AlFIreUITests" */;
+			buildPhases = (
+				42557998BA15FAD7AB9D97FA /* [CP] Check Pods Manifest.lock */,
+				184FF75723E2E77300C7D126 /* Sources */,
+				184FF75823E2E77300C7D126 /* Frameworks */,
+				184FF75923E2E77300C7D126 /* Resources */,
+				D978B4506DBA47C487033DD6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184FF75D23E2E77300C7D126 /* PBXTargetDependency */,
+			);
+			name = AlFIreUITests;
+			productName = AlFIreUITests;
+			productReference = 184FF75B23E2E77300C7D126 /* AlFIreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184FF73223E2E77100C7D126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Apple MacBook Pro";
+				TargetAttributes = {
+					184FF73923E2E77100C7D126 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					184FF74F23E2E77300C7D126 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 184FF73923E2E77100C7D126;
+					};
+					184FF75A23E2E77300C7D126 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 184FF73923E2E77100C7D126;
+					};
+				};
+			};
+			buildConfigurationList = 184FF73523E2E77100C7D126 /* Build configuration list for PBXProject "AlFIre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184FF73123E2E77100C7D126;
+			productRefGroup = 184FF73B23E2E77100C7D126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184FF73923E2E77100C7D126 /* AlFIre */,
+				184FF74F23E2E77300C7D126 /* AlFIreTests */,
+				184FF75A23E2E77300C7D126 /* AlFIreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184FF73823E2E77100C7D126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184FF74A23E2E77300C7D126 /* LaunchScreen.storyboard in Resources */,
+				184FF74723E2E77300C7D126 /* Assets.xcassets in Resources */,
+				184FF74523E2E77100C7D126 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184FF74E23E2E77300C7D126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184FF75923E2E77300C7D126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E9D3D562F4F73FC905CD758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlFIreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42557998BA15FAD7AB9D97FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlFIre-AlFIreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DBF17E5D191B404FF648A43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlFIre-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D978B4506DBA47C487033DD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlFIre-AlFIreUITests/Pods-AlFIre-AlFIreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlFIre-AlFIreUITests/Pods-AlFIre-AlFIreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlFIre-AlFIreUITests/Pods-AlFIre-AlFIreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF2E9900750226257A63C02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlFIre/Pods-AlFIre-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlFIre/Pods-AlFIre-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlFIre/Pods-AlFIre-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184FF73623E2E77100C7D126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184FF74223E2E77100C7D126 /* ViewController.swift in Sources */,
+				184FF73E23E2E77100C7D126 /* AppDelegate.swift in Sources */,
+				184FF74023E2E77100C7D126 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184FF74C23E2E77300C7D126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184FF75523E2E77300C7D126 /* AlFIreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184FF75723E2E77300C7D126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184FF76023E2E77300C7D126 /* AlFIreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184FF75223E2E77300C7D126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184FF73923E2E77100C7D126 /* AlFIre */;
+			targetProxy = 184FF75123E2E77300C7D126 /* PBXContainerItemProxy */;
+		};
+		184FF75D23E2E77300C7D126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184FF73923E2E77100C7D126 /* AlFIre */;
+			targetProxy = 184FF75C23E2E77300C7D126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184FF74323E2E77100C7D126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184FF74423E2E77100C7D126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184FF74823E2E77300C7D126 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184FF74923E2E77300C7D126 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184FF76223E2E77300C7D126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184FF76323E2E77300C7D126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184FF76523E2E77300C7D126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EB9EB21CB6B1DD75149832 /* Pods-AlFIre.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlFIre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.AlFIre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184FF76623E2E77300C7D126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8530C5BF7B58D654DF626835 /* Pods-AlFIre.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlFIre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.AlFIre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184FF76823E2E77300C7D126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19197E560BAB4D5E1E4ED6CB /* Pods-AlFIreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlFIreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.AlFIreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlFIre.app/AlFIre";
+			};
+			name = Debug;
+		};
+		184FF76923E2E77300C7D126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ACA55B40015A022B3B7DFAE /* Pods-AlFIreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlFIreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.AlFIreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlFIre.app/AlFIre";
+			};
+			name = Release;
+		};
+		184FF76B23E2E77300C7D126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE380A3B54B415BAD76F13B /* Pods-AlFIre-AlFIreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlFIreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.AlFIreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlFIre;
+			};
+			name = Debug;
+		};
+		184FF76C23E2E77300C7D126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6B831080ED791BF642E4E1 /* Pods-AlFIre-AlFIreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlFIreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.AlFIreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlFIre;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184FF73523E2E77100C7D126 /* Build configuration list for PBXProject "AlFIre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184FF76223E2E77300C7D126 /* Debug */,
+				184FF76323E2E77300C7D126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184FF76423E2E77300C7D126 /* Build configuration list for PBXNativeTarget "AlFIre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184FF76523E2E77300C7D126 /* Debug */,
+				184FF76623E2E77300C7D126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184FF76723E2E77300C7D126 /* Build configuration list for PBXNativeTarget "AlFIreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184FF76823E2E77300C7D126 /* Debug */,
+				184FF76923E2E77300C7D126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184FF76A23E2E77300C7D126 /* Build configuration list for PBXNativeTarget "AlFIreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184FF76B23E2E77300C7D126 /* Debug */,
+				184FF76C23E2E77300C7D126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184FF73223E2E77100C7D126 /* Project object */;
+}
